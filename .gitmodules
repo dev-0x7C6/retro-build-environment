@@ -1,0 +1,15 @@
+[submodule "poky"]
+	path = poky
+	url = git://git.yoctoproject.org/poky.git
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+[submodule "layers/meta-intel"]
+	path = layers/meta-intel
+	url = git://git.yoctoproject.org/meta-intel
+[submodule "layers/meta-raspberrypi"]
+	path = layers/meta-raspberrypi
+	url = git://git.yoctoproject.org/meta-raspberrypi
+[submodule "layers/meta-retro"]
+	path = layers/meta-retro
+	url = https://github.com/dev-0x7C6/meta-retro.git
