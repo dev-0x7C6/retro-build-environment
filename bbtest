@@ -1,0 +1,8 @@
+#!/bin/bash
+
+machines=(intel-core2-32 intel-corei7-64 raspberrypi4 raspberrypi4-64)
+
+for machine in ${machines[*]}
+do
+	MACHINE="${machine}" bitbake "$@" || exit 1
+done
