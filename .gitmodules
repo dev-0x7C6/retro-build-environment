@@ -13,3 +13,6 @@
 [submodule "layers/meta-retro"]
 	path = layers/meta-retro
 	url = https://github.com/dev-0x7C6/meta-retro.git
+[submodule "layers/meta-glvnd"]
+	path = layers/meta-glvnd
+	url = https://github.com/dev-0x7C6/meta-glvnd.git
