@@ -19,3 +19,6 @@
 [submodule "layers/meta-qt5"]
 	path = layers/meta-qt5
 	url = https://code.qt.io/yocto/meta-qt5.git
+[submodule "layers/meta-kodi"]
+	path = layers/meta-kodi
+	url = https://github.com/dev-0x7C6/meta-kodi.git
