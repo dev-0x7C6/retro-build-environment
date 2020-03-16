@@ -11,6 +11,13 @@
 #~ MACHINE="raspberrypi4" bitbake retroarch-image-minimal
 ```
 
+## Login
+Default user is **retro**, passsword is same as user name. Pulseaudio is configured to work with retro user and is disabled in root account.
+
+## Patches
+
+Please submit any patches against the retro-build-environment by pull requests.
+
 #### Support and tests
 
 I'm currently testing builds with those machines: 
@@ -21,8 +28,4 @@ I'm currently testing builds with those machines:
 * raspberrypi4 *(meta-raspberrypi)*
 * raspberrypi4-64 *(meta-raspberrypi)*
 
-But feel free to test other machines as well.
-
-## Patches
-
-Please submit any patches against the retro-build-environment by pull requests.
+Feel free to test other machines as well.
