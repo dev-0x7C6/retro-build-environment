@@ -1,8 +1,15 @@
-## Reference environment for Retro distribution
+## Reference build environment for Retro distribution
+
+This is a commplete build enviroment that is integrating **Yocto** and **meta-retro** layer. A starting point to build **RetroArch** system images for PC machines and for embedded machines like RaspberryPi.
+
+Retro distribution is defined by **meta-retro** layer in [retro.conf](https://github.com/dev-0x7C6/meta-retro/blob/zeus/conf/distro/retro.conf). Is partially based on poky configuration file provided by Yocto.
 
 ![Raspberry Pi 4 Poky build](https://devwork.space/wp-content/uploads/2020/01/IMG_20200108_205652-scaled.jpg)
 
-## Building
+## Customization
+File [local.conf](build/conf/local.conf) contains default configuration that can be changed. RetroArch and libretro cores releated settings are explained in [meta-retro readme](https://github.com/dev-0x7C6/meta-retro/blob/zeus/README.md)
+
+## Building system images
 
 ```sh
 #~ git clone --recursive https://github.com/dev-0x7C6/retro-build-environment.git
@@ -27,5 +34,3 @@ I'm currently testing builds with those machines:
 * raspberrypi3-64 *(meta-raspberrypi)*
 * raspberrypi4 *(meta-raspberrypi)*
 * raspberrypi4-64 *(meta-raspberrypi)*
-
-Feel free to test other machines as well.
