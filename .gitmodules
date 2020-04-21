@@ -25,3 +25,6 @@
 [submodule "layers/meta-dev1990"]
 	path = layers/meta-dev1990
 	url = https://github.com/dev-0x7C6/meta-dev1990.git
+[submodule "layers/meta-python2"]
+	path = layers/meta-python2
+	url = https://git.openembedded.org/meta-python2
