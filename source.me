@@ -3,7 +3,5 @@
 ROOT="$(git rev-parse --show-toplevel)"
 PATH="${ROOT}:${PATH}"
 
-alias update-to-dunfell='git submodule foreach bash -c "git checkout dunfell; git pull; true"'
-
 cd "${ROOT}/poky" &> /dev/null
 source oe-init-build-env ../build
