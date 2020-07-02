@@ -1,21 +1,28 @@
 {
 	"folders": [
 		{
+			"name": "retro (master)",
 			"path": "."
 		}
 	],
 	"extensions": {
 		"recommendations": [
 			"EugenWiens.bitbake",
-			"coolbear.systemd-unit-file"
+			"coolbear.systemd-unit-file",
+			"henriiik.vscode-sort",
+			"luveti.kconfig"
 		]
 	},
 	"settings": {
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": true,
+		"editor.tabSize": 4,
 		"files.associations": {
 			"*.bb": "bitbake",
 			"*.bbclass": "bitbake",
 			"*.inc": "bitbake",
-			"*.bbappend": "bitbake"
+			"*.bbappend": "bitbake",
+			"defconfig": "kconfig"
 		}
 	}
 }
