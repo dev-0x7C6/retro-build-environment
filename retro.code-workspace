@@ -10,10 +10,13 @@
 			"EugenWiens.bitbake",
 			"coolbear.systemd-unit-file",
 			"henriiik.vscode-sort",
-			"luveti.kconfig"
+			"luveti.kconfig",
+			"eamodio.gitlens"
 		]
 	},
 	"settings": {
+		"bitbake.machine": "intel-corei7-64",
+		"bitbake.loggingLevel": "debug",
 		"editor.insertSpaces": false,
 		"editor.detectIndentation": true,
 		"editor.tabSize": 4,
