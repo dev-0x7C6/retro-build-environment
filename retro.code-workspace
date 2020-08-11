@@ -15,8 +15,6 @@
 		]
 	},
 	"settings": {
-		"bitbake.machine": "intel-corei7-64",
-		"bitbake.loggingLevel": "debug",
 		"editor.insertSpaces": false,
 		"editor.detectIndentation": true,
 		"editor.tabSize": 4,
@@ -26,6 +24,18 @@
 			"*.inc": "bitbake",
 			"*.bbappend": "bitbake",
 			"defconfig": "kconfig"
+		},
+		"files.exclude": {
+			"**/build/cache": true,
+			"**/build/sstate": true,
+			"**/build/tmp": true,
+			"**/vscode-bitbake-build": true
+		},
+		"search.exclude": {
+			"**/build/cache": true,
+			"**/build/sstate": true,
+			"**/build/tmp": true,
+			"**/vscode-bitbake-build": true
 		}
 	}
 }
