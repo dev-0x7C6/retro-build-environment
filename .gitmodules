@@ -38,3 +38,6 @@
 	path = layers/meta-python2
 	url = https://git.openembedded.org/meta-python2
 	branch = master
+[submodule "layers/meta-rauc"]
+	path = layers/meta-rauc
+	url = https://github.com/rauc/meta-rauc.git
