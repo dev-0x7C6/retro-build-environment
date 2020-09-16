@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "retro (master)",
+			"name": "retro-build-environment (master)",
 			"path": "."
 		}
 	],
@@ -25,17 +25,23 @@
 			"*.bbappend": "bitbake",
 			"defconfig": "kconfig"
 		},
-		"files.exclude": {
-			"**/build/cache": true,
-			"**/build/sstate": true,
-			"**/build/tmp": true,
-			"**/vscode-bitbake-build": true
-		},
 		"search.exclude": {
-			"**/build/cache": true,
-			"**/build/sstate": true,
-			"**/build/tmp": true,
-			"**/vscode-bitbake-build": true
+			"**/build/cache/**": true,
+			"**/build/downloads/**": true,
+			"**/build/sstate-cache/**": true,
+			"**/build/tmp/**": true
+		},
+		"files.exclude": {
+			"**/build/cache/**": true,
+			"**/build/downloads/**": true,
+			"**/build/sstate-cache/**": true,
+			"**/build/tmp/**": true
+		},
+		"files.watcherExclude": {
+			"**/build/cache/**": true,
+			"**/build/downloads/**": true,
+			"**/build/sstate-cache/**": true,
+			"**/build/tmp/**": true
 		}
 	}
 }
