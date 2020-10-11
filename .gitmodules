@@ -41,3 +41,8 @@
 [submodule "layers/meta-rauc"]
 	path = layers/meta-rauc
 	url = https://github.com/rauc/meta-rauc.git
+	branch = master
+[submodule "layers/meta-rauc-community"]
+	path = layers/meta-rauc-community
+	url = https://github.com/dev-0x7C6/meta-rauc-community.git
+	branch = master
