@@ -48,4 +48,4 @@
 	branch = master
 [submodule "layers/meta-sunxi"]
 	path = layers/meta-sunxi
-	url = https://github.com/linux-sunxi/meta-sunxi.git
+	url = https://github.com/dev-0x7C6/meta-sunxi.git
