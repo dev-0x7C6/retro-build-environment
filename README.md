@@ -15,7 +15,7 @@ File [local.conf](build/conf/local.conf) contains default configuration that can
 #~ git clone --recursive https://github.com/dev-0x7C6/retro-build-environment.git
 #~ cd retro-build-environment
 #~ source source.me
-#~ MACHINE="raspberrypi4" bitbake retroarch-image-minimal
+#~ MACHINE="raspberrypi4" bitbake retro-image-minimal
 ```
 
 ## Login
