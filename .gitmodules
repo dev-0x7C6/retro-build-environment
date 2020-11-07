@@ -45,7 +45,7 @@
 [submodule "layers/meta-rauc-community"]
 	path = layers/meta-rauc-community
 	url = https://github.com/dev-0x7C6/meta-rauc-community.git
-	branch = master
+	branch = autogrow-fs
 [submodule "layers/meta-sunxi"]
 	path = layers/meta-sunxi
 	url = https://github.com/dev-0x7C6/meta-sunxi.git
