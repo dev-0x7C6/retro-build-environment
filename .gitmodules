@@ -57,3 +57,4 @@
 [submodule "layers/meta-raspberrypi-extras"]
 	path = layers/meta-raspberrypi-extras
 	url = https://github.com/dev-0x7C6/meta-raspberrypi-extras
+	branch = master
