@@ -1,19 +1,19 @@
 [submodule "poky"]
 	path = poky
 	url = git://git.yoctoproject.org/poky.git
-	branch = master
+	branch = gatesgarth
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
-	branch = master
+	branch = gatesgarth
 [submodule "layers/meta-intel"]
 	path = layers/meta-intel
 	url = git://git.yoctoproject.org/meta-intel
-	branch = master
+	branch = gatesgarth
 [submodule "layers/meta-raspberrypi"]
 	path = layers/meta-raspberrypi
 	url = git://git.yoctoproject.org/meta-raspberrypi
-	branch = master
+	branch = gatesgarth
 [submodule "layers/meta-retro"]
 	path = layers/meta-retro
 	url = https://github.com/dev-0x7C6/meta-retro.git
@@ -37,11 +37,11 @@
 [submodule "layers/meta-python2"]
 	path = layers/meta-python2
 	url = https://git.openembedded.org/meta-python2
-	branch = master
+	branch = gatesgarth
 [submodule "layers/meta-rauc"]
 	path = layers/meta-rauc
 	url = https://github.com/rauc/meta-rauc.git
-	branch = master
+	branch = gatesgarth
 [submodule "layers/meta-rauc-community"]
 	path = layers/meta-rauc-community
 	url = https://github.com/leon-anavi/meta-rauc-community.git
