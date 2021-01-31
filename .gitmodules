@@ -1,7 +1,7 @@
 [submodule "poky"]
 	path = poky
 	url = git://git.yoctoproject.org/poky.git
-	branch = gatesgarth
+	branch = master
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
@@ -57,4 +57,12 @@
 [submodule "layers/meta-raspberrypi-extras"]
 	path = layers/meta-raspberrypi-extras
 	url = https://github.com/dev-0x7C6/meta-raspberrypi-extras
+	branch = master
+[submodule "layers/meta-rockchip"]
+	path = layers/meta-rockchip
+	url = git://git.yoctoproject.org/meta-rockchip
+	branch = master
+[submodule "layers/meta-arm"]
+	path = layers/meta-arm
+	url = git://git.yoctoproject.org/meta-arm
 	branch = master
