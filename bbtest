@@ -1,6 +1,6 @@
 #!/bin/bash
 
-machines=(intel-core2-32 intel-corei7-64 raspberrypi4 raspberrypi4-64 rock-pi-4a orange-pi-pc cubietruck)
+machines=(intel-core2-32 intel-corei7-64 raspberrypi3 raspberrypi3-64 raspberrypi4 raspberrypi4-64 rock-pi-4a orange-pi-pc cubietruck)
 
 for machine in ${machines[*]}
 do
