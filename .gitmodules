@@ -66,3 +66,6 @@
 	path = layers/meta-arm
 	url = git://git.yoctoproject.org/meta-arm
 	branch = master
+[submodule "layers/meta-clang"]
+	path = layers/meta-clang
+	url = https://github.com/kraj/meta-clang.git
