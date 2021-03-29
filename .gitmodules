@@ -69,3 +69,4 @@
 [submodule "layers/meta-clang"]
 	path = layers/meta-clang
 	url = https://github.com/kraj/meta-clang.git
+	branch = master
