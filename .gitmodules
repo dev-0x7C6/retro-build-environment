@@ -5,7 +5,7 @@
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
-	branch = master
+	branch = hardknott
 [submodule "layers/meta-intel"]
 	path = layers/meta-intel
 	url = git://git.yoctoproject.org/meta-intel
