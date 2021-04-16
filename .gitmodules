@@ -37,7 +37,7 @@
 [submodule "layers/meta-python2"]
 	path = layers/meta-python2
 	url = https://git.openembedded.org/meta-python2
-	branch = master
+	branch = hardknott
 [submodule "layers/meta-rauc"]
 	path = layers/meta-rauc
 	url = https://github.com/rauc/meta-rauc.git
@@ -61,7 +61,7 @@
 [submodule "layers/meta-rockchip"]
 	path = layers/meta-rockchip
 	url = git://git.yoctoproject.org/meta-rockchip
-	branch = master
+	branch = hardknott
 [submodule "layers/meta-arm"]
 	path = layers/meta-arm
 	url = git://git.yoctoproject.org/meta-arm
@@ -69,4 +69,4 @@
 [submodule "layers/meta-clang"]
 	path = layers/meta-clang
 	url = https://github.com/kraj/meta-clang.git
-	branch = master
+	branch = hardknott
