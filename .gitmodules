@@ -9,7 +9,7 @@
 [submodule "layers/meta-intel"]
 	path = layers/meta-intel
 	url = git://git.yoctoproject.org/meta-intel
-	branch = master
+	branch = hardknott
 [submodule "layers/meta-raspberrypi"]
 	path = layers/meta-raspberrypi
 	url = git://git.yoctoproject.org/meta-raspberrypi
@@ -65,7 +65,7 @@
 [submodule "layers/meta-arm"]
 	path = layers/meta-arm
 	url = git://git.yoctoproject.org/meta-arm
-	branch = master
+	branch = hardknott
 [submodule "layers/meta-clang"]
 	path = layers/meta-clang
 	url = https://github.com/kraj/meta-clang.git
