@@ -70,3 +70,6 @@
 	path = layers/meta-clang
 	url = https://github.com/kraj/meta-clang.git
 	branch = hardknott
+[submodule "layers/meta-rockchip-extras"]
+	path = layers/meta-rockchip-extras
+	url = https://github.com/MarkusVolk/meta-rockchip-extras.git
