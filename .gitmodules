@@ -24,7 +24,7 @@
 	branch = 5.15
 [submodule "layers/meta-kodi"]
 	path = layers/meta-kodi
-	url = https://github.com/dev-0x7C6/meta-kodi.git
+	url = https://github.com/koenkooi/meta-kodi.git
 	branch = master-next
 [submodule "layers/meta-mesa"]
 	path = layers/meta-mesa
