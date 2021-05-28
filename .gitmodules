@@ -13,7 +13,7 @@
 [submodule "layers/meta-raspberrypi"]
 	path = layers/meta-raspberrypi
 	url = git://git.yoctoproject.org/meta-raspberrypi
-	branch = master
+	branch = hardknott
 [submodule "layers/meta-retro"]
 	path = layers/meta-retro
 	url = https://github.com/dev-0x7C6/meta-retro.git
