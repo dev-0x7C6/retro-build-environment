@@ -69,12 +69,15 @@
 [submodule "layers/meta-rockchip-extras"]
 	path = layers/meta-rockchip-extras
 	url = https://github.com/MarkusVolk/meta-rockchip-extras.git
+	branch = master
 [submodule "layers/meta-wayland"]
 	path = layers/meta-wayland
 	url = https://github.com/MarkusVolk/meta-wayland.git
+	branch = hardknott
 [submodule "layers/meta-ryzen"]
 	path = layers/meta-ryzen
 	url = https://github.com/dev-0x7C6/meta-ryzen.git
+	branch = main
 [submodule "layers/meta-qt5"]
 	path = layers/meta-qt5
 	url = https://github.com/meta-qt5/meta-qt5.git
