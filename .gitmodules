@@ -69,7 +69,7 @@
 [submodule "layers/meta-rockchip-extras"]
 	path = layers/meta-rockchip-extras
 	url = https://github.com/MarkusVolk/meta-rockchip-extras.git
-	branch = master
+	branch = hardknott
 [submodule "layers/meta-wayland"]
 	path = layers/meta-wayland
 	url = https://github.com/MarkusVolk/meta-wayland.git
