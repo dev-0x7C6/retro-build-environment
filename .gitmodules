@@ -1,19 +1,19 @@
 [submodule "poky"]
 	path = poky
 	url = git://git.yoctoproject.org/poky.git
-	branch = hardknott
+	branch = honister
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
-	branch = hardknott
+	branch = honister
 [submodule "layers/meta-intel"]
 	path = layers/meta-intel
 	url = git://git.yoctoproject.org/meta-intel
-	branch = hardknott
+	branch = honister
 [submodule "layers/meta-raspberrypi"]
 	path = layers/meta-raspberrypi
 	url = git://git.yoctoproject.org/meta-raspberrypi
-	branch = hardknott
+	branch = honister
 [submodule "layers/meta-retro"]
 	path = layers/meta-retro
 	url = https://github.com/dev-0x7C6/meta-retro.git
@@ -21,7 +21,7 @@
 [submodule "layers/meta-kodi"]
 	path = layers/meta-kodi
 	url = https://github.com/koenkooi/meta-kodi.git
-	branch = master-next
+	branch = honister
 [submodule "layers/meta-mesa"]
 	path = layers/meta-mesa
 	url = https://github.com/dev-0x7C6/meta-mesa.git
@@ -33,19 +33,19 @@
 [submodule "layers/meta-python2"]
 	path = layers/meta-python2
 	url = https://git.openembedded.org/meta-python2
-	branch = hardknott
+	branch = honister
 [submodule "layers/meta-rauc"]
 	path = layers/meta-rauc
 	url = https://github.com/rauc/meta-rauc.git
 	branch = master
 [submodule "layers/meta-rauc-community"]
 	path = layers/meta-rauc-community
-	url = https://github.com/leon-anavi/meta-rauc-community.git
+	url = https://github.com/rauc/meta-rauc-community.git
 	branch = master
 [submodule "layers/meta-sunxi"]
 	path = layers/meta-sunxi
 	url = https://github.com/linux-sunxi/meta-sunxi.git
-	branch = hardknott
+	branch = master
 [submodule "layers/meta-meson"]
 	path = layers/meta-meson
 	url = https://github.com/dev-0x7C6/meta-meson.git
@@ -57,23 +57,23 @@
 [submodule "layers/meta-rockchip"]
 	path = layers/meta-rockchip
 	url = git://git.yoctoproject.org/meta-rockchip
-	branch = hardknott
+	branch = master
 [submodule "layers/meta-arm"]
 	path = layers/meta-arm
 	url = git://git.yoctoproject.org/meta-arm
-	branch = hardknott
+	branch = honister
 [submodule "layers/meta-clang"]
 	path = layers/meta-clang
 	url = https://github.com/kraj/meta-clang.git
-	branch = hardknott
+	branch = honister
 [submodule "layers/meta-rockchip-extras"]
 	path = layers/meta-rockchip-extras
 	url = https://github.com/MarkusVolk/meta-rockchip-extras.git
-	branch = hardknott
+	branch = master
 [submodule "layers/meta-wayland"]
 	path = layers/meta-wayland
 	url = https://github.com/MarkusVolk/meta-wayland.git
-	branch = hardknott
+	branch = honister
 [submodule "layers/meta-ryzen"]
 	path = layers/meta-ryzen
 	url = https://github.com/dev-0x7C6/meta-ryzen.git
@@ -81,4 +81,4 @@
 [submodule "layers/meta-qt5"]
 	path = layers/meta-qt5
 	url = https://github.com/meta-qt5/meta-qt5.git
-	branch = hardknott
+	branch = honister
